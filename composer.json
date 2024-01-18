@@ -1,5 +1,10 @@
 {
     "name": "subthored/hexlet-php",
+    "autoload": {
+        "files": [
+            "src/Runner.php"
+        ]
+    },
     "description": "example package",
     "authors": [
         {
@@ -7,5 +12,13 @@
             "email": "janiqgames@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "tightenco/collect": "^9.52"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.8"
+    },
+    "scripts": {
+        "phpcs": "phpcs"
+    }
 }

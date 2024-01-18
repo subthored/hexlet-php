@@ -1,0 +1,11 @@
+{
+    "name": "subthored/hexlet-php",
+    "description": "example package",
+    "authors": [
+        {
+            "name": "Eugeny Zhikharev",
+            "email": "janiqgames@gmail.com"
+        }
+    ],
+    "require": {}
+}
